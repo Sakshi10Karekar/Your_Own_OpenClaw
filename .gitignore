@@ -1,0 +1,61 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build
+next-env.d.ts
+tsconfig.tsbuildinfo
+.turbo
+
+# Environment variables (never commit these)
+.env
+.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Vercel
+.vercel
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.pem
+
+# Editor
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# Testing
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/*
+
+# Certificates
+*.pem
+*.key
+*.cert
